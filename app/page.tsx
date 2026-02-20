@@ -18,15 +18,18 @@ export default function HomePage() {
         <div className="mt-6 flex flex-wrap gap-3">
           <Link
             href="/companies"
-            className="rounded-full border border-slate-200 bg-slate-900 px-6 py-2 text-sm font-semibold text-white"
           >
-            Explore companies
+            <button className="rounded-full border bg-slate-900 px-6 py-2 text-sm font-semibold text-white">
+              Explore companies
+            </button>
+
           </Link>
           <Link
             href="/lists"
-            className="rounded-full border border-slate-200 px-6 py-2 text-sm font-semibold text-slate-700"
           >
-            Build lists
+            <button className="rounded-full border border-slate-200 px-6 py-2 text-sm font-semibold text-slate-900">
+              Build lists
+            </button>
           </Link>
         </div>
       </section>
